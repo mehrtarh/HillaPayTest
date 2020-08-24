@@ -7,12 +7,15 @@
 //
 
 import UIKit
+import HillaPayTest
 
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        let sdk = HillaPaySdk()
+        sdk.payment()
+        
     }
 
     override func didReceiveMemoryWarning() {
