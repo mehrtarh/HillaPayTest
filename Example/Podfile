@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'HillaPayTest_Example' do
+  pod 'HillaPayTest', :path => '../'
+
+  target 'HillaPayTest_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
